@@ -1,0 +1,86 @@
+{
+  "name": "techmallone",
+  "version": "0.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "private": true,
+  "packages": {
+    "": {
+      "name": "techmallone",
+      "version": "0.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "@angular/animations": "~12.1.0",
+        "@angular/common": "~12.1.0",
+        "@angular/compiler": "~12.1.0",
+        "@angular/core": "~12.1.0",
+        "@angular/forms": "~12.1.0",
+        "@angular/platform-browser": "~12.1.0",
+        "@angular/platform-browser-dynamic": "~12.1.0",
+        "@angular/router": "~12.1.0",
+        "rxjs": "~6.6.0",
+        "tslib": "^2.2.0",
+        "zone.js": "~0.11.4"
+      },
+      "devDependencies": {
+        "@angular-devkit/build-angular": "~12.1.0",
+        "@angular/cli": "~12.1.0",
+        "@angular/compiler-cli": "~12.1.0",
+        "@types/jasmine": "~3.6.0",
+        "@types/node": "^12.11.1",
+        "jasmine-core": "~3.7.0",
+        "karma": "~6.3.0",
+        "karma-chrome-launcher": "~3.1.0",
+        "karma-coverage": "~2.0.3",
+        "karma-jasmine": "~4.0.0",
+        "karma-jasmine-html-reporter": "^1.5.0",
+        "typescript": "~4.3.2"
+      }
+    },
+    "node_modules/@angular/animations": {},
+    "node_modules/@angular/common": {},
+    "node_modules/@angular/compiler": {},
+    "node_modules/@angular/core": {},
+    "node_modules/@angular/forms": {},
+    "node_modules/@angular/platform-browser": {},
+    "node_modules/@angular/platform-browser-dynamic": {},
+    "node_modules/@angular/router": {},
+    "node_modules/rxjs": {},
+    "node_modules/tslib": {},
+    "node_modules/zone.js": {}
+  },
+  "dependencies": {
+    "@angular/animations": {},
+    "@angular/common": {},
+    "@angular/compiler": {},
+    "@angular/core": {},
+    "@angular/forms": {},
+    "@angular/platform-browser": {},
+    "@angular/platform-browser-dynamic": {},
+    "@angular/router": {},
+    "rxjs": {},
+    "tslib": {},
+    "zone.js": {}
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~12.1.0",
+    "@angular/cli": "~12.1.0",
+    "@angular/compiler-cli": "~12.1.0",
+    "@types/jasmine": "~3.6.0",
+    "@types/node": "^12.11.1",
+    "jasmine-core": "~3.7.0",
+    "karma": "~6.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.0.3",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "^1.5.0",
+    "typescript": "~4.3.2"
+  },
+  "scripts": {
+    "build": "ng build",
+    "ng": "ng",
+    "start": "ng serve",
+    "test": "ng test",
+    "watch": "ng build --watch --configuration development"
+  }
+}

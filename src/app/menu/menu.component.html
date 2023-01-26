@@ -1,0 +1,42 @@
+           <header>
+                <!-- header inner -->
+                <div class="header">
+
+                    <div class="container-fluid">
+
+                        <div class="row">
+                            <div class="col-lg-3 logo_section">
+                                <div class="full">
+                                    <div class="center-desk">
+                                        <div class="logo">
+                                            <a href="index.html"><img src="assets/images/logo.jpg" alt="#"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="right_header_info">
+            <ul *ngIf="islogin==false">
+                
+                <li > <a routerLink="/">Home</a></li>
+                 <li> <a routerLink="/userlogin">User</a></li>
+             <li> <a routerLink="/adminlogin">Admin</a></li>
+            </ul>
+
+
+	    <ul *ngIf="islogin==true">
+                  <li > <a routerLink="/adminhome">Home</a></li>
+                 <li> <a routerLink="/adminprod">Product</a></li>            
+          <li> <a routerLink="/admincate">Category</a></li>
+		 <li > <b>Logout </b></li>
+	    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- end header inner -->
+            </header>
+ 

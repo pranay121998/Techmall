@@ -1,0 +1,8 @@
+li a{
+  color:black;
+  font-weight:500;
+}
+li a:hover{
+ color :teal;
+ font-size:40px;
+}
